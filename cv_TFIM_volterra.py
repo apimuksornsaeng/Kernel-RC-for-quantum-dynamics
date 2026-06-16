@@ -20,6 +20,9 @@ if __name__ == "__main__":
     N = 4
     hx = 8.0
     STATE = "Neel" # initial state: "Neel" or "Paramagnet"
+    BC      = "periodic"  # 'open' or 'periodic'
+    if BC == 'periodic':
+        SYSTEM += f'_{BC}'
     real = 0
     mode = 'all' # 'all' or 'dynamics'
 
