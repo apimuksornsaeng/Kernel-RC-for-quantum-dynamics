@@ -1,4 +1,4 @@
-# Infinite-dimensional next-generation reservoir computing
+# Kernel reservoir computing for quantum dynamics prediction
 
 Repository for the project Infinite-dimensional next-generation reservoir computing.
 
