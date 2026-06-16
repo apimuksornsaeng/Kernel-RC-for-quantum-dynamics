@@ -11,8 +11,10 @@ Project structure:
 * `cv_<estimator>_<system>.py` : crossvalidation for system and estimator
 * `test_<estimator>_final.py` : training, testing, and image generation for all estimators
 
+# Before running
+
 For KRC for quantum system,
-* `datagen/data_generate_TFIM.py` : a python file for generating quantum dynamics
+* `datagen/data_generate_TFIM.py` : a python file for generating quantum dynamics. You must run this file to generate the datasets first.
 * run `cv_TFIM_volterra.py` to get the optimal Volterra kernel RC hyperparameters
 * run `KRC_sandbox.ipynb` to visualize the prediction results and further analysis
 * You can preliminarily visualize the quantum dynamics by `time_series.ipynb`
