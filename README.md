@@ -3,7 +3,6 @@
 Repository for the project Infinite-dimensional next-generation reservoir computing.
 
 Project structure:
-* `crossvalresults` : outcomes of crossvalidation 
 * `datagen` : datasets and data generation files
 * `estimators` : classes for all estimators used
 * `images` : all images generated used in the paper
@@ -11,6 +10,12 @@ Project structure:
 * `utils` : cleaning, errors, normalisation, and plotting functions; crossvalidation class
 * `cv_<estimator>_<system>.py` : crossvalidation for system and estimator
 * `test_<estimator>_final.py` : training, testing, and image generation for all estimators
+
+For KRC for quantum system,
+* `datagen/data_generate_TFIM.py` : a python file for generating quantum dynamics
+* run `cv_TFIM_volterra.py` to get the optimal Volterra kernel RC hyperparameters
+* run `KRC_sandbox.ipynb` to visualize the prediction results and further analysis
+* You can preliminarily visualize the quantum dynamics by `time_series.ipynb`
 
 ## Code requirements
 Python 3.10.12 was used. Please see `requirements.txt` for the exact environment. 
